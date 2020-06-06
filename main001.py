@@ -53,7 +53,7 @@ model.compile(loss='categorical_crossentropy', metrics=['accuracy'], optimizer='
 #hyperparameters
 epoch=2
 # training the model for 5 epochs
-history = model.fit(
+h = model.fit(
             X_train,Y_train, epochs=epoch
     )
 
