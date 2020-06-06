@@ -57,6 +57,3 @@ h = model.fit(
             X_train,Y_train, epochs=epoch
     )
 
-print(h.history['accuracy'][-1])
-with open ("/mlopspro/accuracy.text", "+w") as f1:
-  f1.write(h.history['accuracy'][-1])
